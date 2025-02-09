@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SK6812MINI-E-012")(type "KiCad")(uri "${KIPRJMOD}/libraries/SK6812MINI-E-012/SK6812MINI-E-012.pretty")(options "")(descr ""))
+  (lib (name "FJ5361BH")(type "KiCad")(uri "${KIPRJMOD}/libraries/FJ5361BH/FJ5361BH.pretty")(options "")(descr ""))
+  (lib (name "EC12E2430404")(type "KiCad")(uri "${KIPRJMOD}/libraries/EC12E2430404")(options "")(descr ""))
+)
