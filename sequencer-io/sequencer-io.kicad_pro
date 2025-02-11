@@ -592,6 +592,22 @@
     [
       "6fc9129a-8ec1-4575-b6d8-bc0ab0a6ec0f",
       "Root"
+    ],
+    [
+      "00ad9f28-5f6b-4adc-a777-daa5b4e48acb",
+      "Switches"
+    ],
+    [
+      "713f1bc2-8127-420c-81d4-ec84ec3a82d1",
+      "LEDs"
+    ],
+    [
+      "2febc979-1948-4a0b-9c80-4dd24dc052be",
+      "IOs"
+    ],
+    [
+      "f075c99c-7b39-433b-a404-966cccfe75b5",
+      "DAC"
     ]
   ],
   "text_variables": {}
