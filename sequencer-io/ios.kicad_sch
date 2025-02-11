@@ -4475,7 +4475,6 @@
 	(hierarchical_label "CLKOUT"
 		(shape input)
 		(at 161.29 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4487,7 +4486,6 @@
 	(hierarchical_label "AD2"
 		(shape input)
 		(at 35.56 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4499,7 +4497,6 @@
 	(hierarchical_label "AD4"
 		(shape input)
 		(at 35.56 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4511,7 +4508,6 @@
 	(hierarchical_label "ENC_B"
 		(shape input)
 		(at 133.35 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4523,7 +4519,6 @@
 	(hierarchical_label "SER"
 		(shape input)
 		(at 59.69 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4535,7 +4530,6 @@
 	(hierarchical_label "GATE"
 		(shape input)
 		(at 152.4 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4547,7 +4541,6 @@
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 59.69 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4559,7 +4552,6 @@
 	(hierarchical_label "AD1"
 		(shape input)
 		(at 35.56 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4571,7 +4563,6 @@
 	(hierarchical_label "CLKIN"
 		(shape input)
 		(at 104.14 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4583,7 +4574,6 @@
 	(hierarchical_label "ENC_A"
 		(shape input)
 		(at 133.35 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4595,7 +4585,6 @@
 	(hierarchical_label "CV"
 		(shape input)
 		(at 132.08 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4607,7 +4596,6 @@
 	(hierarchical_label "PITCH"
 		(shape input)
 		(at 132.08 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4619,7 +4607,6 @@
 	(hierarchical_label "DIGIT_1"
 		(shape input)
 		(at 39.37 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4631,7 +4618,6 @@
 	(hierarchical_label "DIGIT_2"
 		(shape input)
 		(at 39.37 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4643,7 +4629,6 @@
 	(hierarchical_label "CS_SHIFT"
 		(shape input)
 		(at 59.69 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4655,7 +4640,6 @@
 	(hierarchical_label "AD3"
 		(shape input)
 		(at 35.56 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4667,7 +4651,6 @@
 	(hierarchical_label "RSTIN"
 		(shape input)
 		(at 104.14 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4679,7 +4662,6 @@
 	(hierarchical_label "DIGIT_3"
 		(shape input)
 		(at 39.37 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
