@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "audioJack_pinHeader")(type "KiCad")(uri "${KIPRJMOD}/libraries/audioJack_pinHeader/audioJack_pinHeader.kicad_sym")(options "")(descr ""))
+)

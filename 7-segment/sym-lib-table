@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FJ5361BH")(type "KiCad")(uri "${KIPRJMOD}/libraries/FJ5361BH/FJ5361BH.kicad_sym")(options "")(descr ""))
+)
