@@ -483,7 +483,7 @@
       "plot": "fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3d-models/7-segment.step",
       "svg": "",
       "vrml": ""
     },
