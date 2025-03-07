@@ -27,10 +27,13 @@ The original Super Sixteen design has been reworked into a modular, three-board 
 As mentioned above, ths repo contains three PCBs:
 
 ![16 steps pcb](hardware/16-steps/3d-models/silkscreen-top.png "The keyboard PCB, with 16 steps and seven function buttons, all using Cherry MX keyswitches")
+_The keyboard PCB, with 16 steps and seven function buttons, all using Cherry MX keyswitches_
 
 ![DAC and Jacks pcb](hardware/jacks-n-dac/3d-models/silkscreen-top.png "The DAC, opamp and IO board. I am using DIP packages for the two main ICs just because I had them laying around. The conversion to SMD packages is trivial - and there's plenty of space on the board!")
+_The DAC, opamp and IO board. I am using DIP packages for the two main ICs just because I had them laying around. The conversion to SMD packages is trivial - and there's plenty of space on the board!_
 
 ![7 Segment pcb](hardware/7-segment/3d-models/silkscreen-top.png "The 7 segment driver pcb. I'm using a three-digit unit, 0.56" tall. Everything is driven by a 74HC595 to reduce the pins needed for interfacing with a microcontroller.")
+_The 7 segment driver pcb. I'm using a three-digit unit, 0.56" tall. Everything is driven by a 74HC595 to reduce the pins needed for interfacing with a microcontroller._
 
 You will notice the glaring omission of a microcontroller from this setup. I am using the venerable Arduino MEGA as the brains of the operation, so that I have enough pins not to worry about faffing around with multiplexers and the like. 
 
