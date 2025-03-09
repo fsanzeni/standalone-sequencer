@@ -484,7 +484,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "3d-models/16-steps.step",
-      "svg": "",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""
