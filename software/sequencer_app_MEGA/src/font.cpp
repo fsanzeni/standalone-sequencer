@@ -39,5 +39,5 @@ const uint8_t alphabet[40]= {
     0xFF, // [35] => "Z"
     0xFF, // [36] => blank
     0xBF, // [37] => -
-    0xFE,  // [38] => .
+    0xFE  // [38] => .
 };
