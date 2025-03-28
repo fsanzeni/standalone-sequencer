@@ -1,24 +1,49 @@
 #include <Arduino.h>
-#include "pinout.h"
-#include "display.h"
+#include <string.h>
+#include <SPI.h>
+#include <elapsedMillis.h>
 
-Display seqDisplay;
+#include "Buttons.h"
+#include "Encoder.h"
+#include "AnalogIO.h"
+#include "Dac.h"
+#include "Display.h"
+#include "Font.h"
+#include "LEDMatrix.h"
+#include "Main.h"
+#include "Sequencer.h"
+#include "Ui.h"
+#include "Dac.h"
+#include "Calibrate.h"
+#include "Pinout.h"
+
+Ui ui;
+Dac dac;
+Calibration calibration;
+Sequencer sequencer;
 
 void setup() {
-  seqDisplay.init(DIO_PIN, RCLK_PIN, SCLK_PIN, DIGIT_1_PIN, DIGIT_2_PIN, DIGIT_3_PIN);
-  seqDisplay.startupSequence();
+	analogReference(EXTERNAL); // use AREF for reference voltage
+
+	calibration.readCalibrationValues(); // -- disable to bypass overwriting EEPROM during programming/development. uncomment for typical use
+	
+    sequencer.init(calibration, dac);
+	ui.init(calibration, dac, sequencer);
 }
 
-void loop() {
-  seqDisplay.update();
-  // seqDisplay.setDisplayNum(888);
 
-  static unsigned long last = 0;
-    if(millis() - last > 500) {
-      last = millis();
-      static int n = 0;
-      seqDisplay.setDisplayNum(n++);
-      if(n > 30) n = -99; // Test negative values
-    }
-  
+void loop() {
+	ui.poll();
+	ui.multiplex();
+	if (ui.isSequencing()){
+		run_sequence();
+	}
+}
+
+void run_sequence() {
+	sequencer.updateClock();
+	if (sequencer.stepWasIncremented()){
+		ui.onStepIncremented();
+	} 
+
 }

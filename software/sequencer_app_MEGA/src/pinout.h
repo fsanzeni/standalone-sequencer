@@ -26,8 +26,9 @@ const int buttonRows[4] = { ROW0_PIN, ROW1_PIN, ROW2_PIN, ROW3_PIN };
 const int buttonCols[8] = { COL0_PIN, COL1_PIN, COL2_PIN, COL3_PIN,
                               COL4_PIN, COL5_PIN, COL6_PIN, COL7_PIN };
 
+// LED PINS
 #define GLIDE_NEOPIXEL_PIN 1
-
+#define LED_MATRIX_PIN 2
 
 // TODO
 #define GLIDE_LED_PIN 15 //these 8 are on the button driver chip, not the MCU
@@ -42,7 +43,7 @@ const int buttonCols[8] = { COL0_PIN, COL1_PIN, COL2_PIN, COL3_PIN,
 // TODO - CHIP SELECT PINS
 // #define CS0_PIN  10 //MCP23S17 for buttons, aux LEDS
 // #define CS1_PIN  9  //Display/matrix shift registers
-#define CS2_PIN  8  //Flash memory
+#define CSFLASH_PIN  8  //Flash memory
 
 
 // DIGIT DISPLAY PINS - correct
