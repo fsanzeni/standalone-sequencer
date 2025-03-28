@@ -13,6 +13,7 @@ static int delay_counter = 0;      // Used to insert blank cycles (for brightnes
 static int brightness = 0;         // Brightness level (0 means always on)
 
 static bool blinking = false;
+// 
 static bool blink_state = true;
 static elapsedMillis display_blinker;  // Tracks elapsed time for blink control
 static uint16_t blink_interval = 0;
