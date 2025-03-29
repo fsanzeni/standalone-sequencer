@@ -21,6 +21,7 @@ Ui ui;
 Dac dac;
 Calibration calibration;
 Sequencer sequencer;
+// Display disp;
 
 void setup() {
 	analogReference(EXTERNAL); // use AREF for reference voltage
@@ -29,6 +30,8 @@ void setup() {
 	
     sequencer.init(calibration, dac);
 	ui.init(calibration, dac, sequencer);
+  // disp.init(DIO_PIN, RCLK_PIN, SCLK_PIN, DIGIT_1_PIN, DIGIT_2_PIN, DIGIT_3_PIN);
+
 }
 
 
@@ -38,6 +41,9 @@ void loop() {
 	if (ui.isSequencing()){
 		run_sequence();
 	}
+  // disp.update();
+  // disp.setDisplayAlpha("MEM");
+  
 }
 
 void run_sequence() {

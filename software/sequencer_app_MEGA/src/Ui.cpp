@@ -14,7 +14,6 @@
 #include <Arduino.h>
 #include <avr/pgmspace.h>
 
-
 Buttons buttons;
 AnalogIo analogIo;
 Display display;
