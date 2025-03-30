@@ -1,15 +1,15 @@
-#include "AnalogIO.h"
-#include "Buttons.h"
-#include "Calibrate.h"
-#include "Dac.h"
-#include "Display.h"
-#include "Encoder.h"
+#include "analogIO.h"
+#include "buttons.h"
+#include "calibrate.h"
+#include "dac.h"
+#include "display.h"
+#include "encoder.h"
 #include "LEDMatrix.h"
-#include "Memory.h"
-#include "Sequencer.h"
-#include "Scales.h"
+#include "memory.h"
+#include "sequencer.h"
+#include "scales.h"
 // #include "Variables.h"
-#include "Pinout.h"
+#include "pinout.h"
 #include "Ui.h"
 #include <Arduino.h>
 #include <avr/pgmspace.h>
@@ -87,10 +87,10 @@ void Ui::init(Calibration& calibration, Dac& dac, Sequencer& sequencer){
 
 	display.startupSequence();
 
-	if (!memory.init(sequencer)) {
-		display.setDisplayAlpha("MEM");
-		return;
-	}
+	// if (!memory.init(sequencer)) {
+	// 	display.setDisplayAlpha("MEM");
+	// 	return;
+	// }
 	initializeSequenceMode();
 }
 

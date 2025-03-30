@@ -53,25 +53,25 @@ Sequencer sequencer;
 Display disp;
 
 void setup() {
-	// analogReference(EXTERNAL); // use AREF for reference voltage
+	analogReference(EXTERNAL); // use AREF for reference voltage
 
-	// calibration.readCalibrationValues(); // -- disable to bypass overwriting EEPROM during programming/development. uncomment for typical use
+	calibration.readCalibrationValues(); // -- disable to bypass overwriting EEPROM during programming/development. uncomment for typical use
 	
-    // sequencer.init(calibration, dac);
-	// ui.init(calibration, dac, sequencer);
-  disp.init();
+    sequencer.init(calibration, dac);
+	ui.init(calibration, dac, sequencer);
+//   disp.init();
 
 }
 
 
 void loop() {
-	// ui.poll();
-	// ui.multiplex();
-	// if (ui.isSequencing()){
-	// 	run_sequence();
-	// }
-  disp.update();
-  disp.setDisplayAlpha("ABC");
+	ui.poll();
+	ui.multiplex();
+	if (ui.isSequencing()){
+		run_sequence();
+	}
+//   disp.update();
+//   disp.setDisplayAlpha("OPQ");
   
 }
 
