@@ -3818,7 +3818,6 @@
 	)
 	(label "DIG1"
 		(at 92.71 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3829,7 +3828,6 @@
 	)
 	(label "DIG3"
 		(at 140.97 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3840,7 +3838,6 @@
 	)
 	(label "SER"
 		(at 213.36 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3851,7 +3848,6 @@
 	)
 	(label "DIG1"
 		(at 213.36 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3862,7 +3858,6 @@
 	)
 	(label "SRCLK"
 		(at 69.85 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3873,7 +3868,6 @@
 	)
 	(label "RCLK"
 		(at 69.85 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3884,7 +3878,6 @@
 	)
 	(label "SRCLK"
 		(at 213.36 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3895,7 +3888,6 @@
 	)
 	(label "DIG2"
 		(at 213.36 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3906,7 +3898,6 @@
 	)
 	(label "SER"
 		(at 69.85 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3917,7 +3908,6 @@
 	)
 	(label "RCLK"
 		(at 213.36 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3928,7 +3918,6 @@
 	)
 	(label "DIG3"
 		(at 213.36 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3939,7 +3928,6 @@
 	)
 	(label "DIG2"
 		(at 116.84 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4100,7 +4088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 106.934 108.204 90)
 			(effects
 				(font
@@ -4245,7 +4233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 99.314 108.204 90)
 			(effects
 				(font
@@ -4314,7 +4302,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 104.394 108.204 90)
 			(effects
 				(font
@@ -4628,7 +4616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 101.854 108.204 90)
 			(effects
 				(font
@@ -4830,7 +4818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 112.014 108.204 90)
 			(effects
 				(font
@@ -5163,7 +5151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 109.474 108.204 90)
 			(effects
 				(font
@@ -5232,7 +5220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 117.094 108.204 90)
 			(effects
 				(font
@@ -5369,7 +5357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 114.554 108.204 90)
 			(effects
 				(font
