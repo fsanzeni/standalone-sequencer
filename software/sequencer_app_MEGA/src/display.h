@@ -33,7 +33,7 @@ class Display {
 
     // Initialization: set up shift register and digit control pins
     // d1, d2, d3: Arduino pins controlling the three digit commons
-    void init(int DIO, int RCLK, int SCLK, int d1, int d2, int d3);
+    void init();
 
     // Run a startup animation sequence on the display
     void startupSequence();

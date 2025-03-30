@@ -2,6 +2,7 @@
 #include <elapsedMillis.h>
 #include "display.h"
 #include "font.h"
+#include "pinout.h"
 
 // Global configuration variables for display behavior.
 // These could be moved into the Display class if desired.
@@ -37,13 +38,13 @@ Display::Display() :
 //=============================================================================
 // Initialize the shift register pins and digit control pins.
 // digit1, digit2, digit3 correspond to the Arduino pins controlling the three digits.
-void Display::init(int DIO, int RCLK, int SCLK, int digit1, int digit2, int digit3) {
-  _DIO = DIO;
-  _RCLK = RCLK;
-  _SCLK = SCLK;
-  _digitPins[0] = digit1;
-  _digitPins[1] = digit2;
-  _digitPins[2] = digit3;
+void Display::init() {
+  _DIO = DIO_PIN;
+  _RCLK = RCLK_PIN;
+  _SCLK = SCLK_PIN;
+  _digitPins[0] = DIGIT_1_PIN;
+  _digitPins[1] = DIGIT_2_PIN;
+  _digitPins[2] = DIGIT_3_PIN;
 
   // Set up the shift register pins
   pinMode(_DIO, OUTPUT);

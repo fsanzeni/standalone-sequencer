@@ -78,7 +78,7 @@ void Ui::init(Calibration& calibration, Dac& dac, Sequencer& sequencer){
     sequencerVar2   = &sequencer;
     analogIo.init(sequencer);
     buttons.init();
-    display.init(DIO_PIN, RCLK_PIN, SCLK_PIN, DIGIT_1_PIN, DIGIT_2_PIN, DIGIT_3_PIN);
+    display.init();
 	encoder.init();
     ledMatrix.init(display, sequencer);
 
