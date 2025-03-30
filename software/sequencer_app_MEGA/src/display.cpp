@@ -188,8 +188,7 @@ void Display::setDisplayAlpha(const char displayAlpha[]){
     } else if (displayAlpha[i] >= 48) { // Convert 0-9 to index
       _digitDisplay[i] = displayAlpha[i] - 48;
     }
-    // Store in reversed order (rightmost digit is first in alpha_display)
-    _alphaDisplay[2 - i] = alphabet[_digitDisplay[i]];
+    _alphaDisplay[i] = alphabet[_digitDisplay[i]];
   }
   appendDecimal();
 }

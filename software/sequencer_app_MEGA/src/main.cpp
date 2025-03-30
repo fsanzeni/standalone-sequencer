@@ -50,28 +50,28 @@ Ui ui;
 Dac dac;
 Calibration calibration;
 Sequencer sequencer;
-// Display disp;
+Display disp;
 
 void setup() {
-	analogReference(EXTERNAL); // use AREF for reference voltage
+	// analogReference(EXTERNAL); // use AREF for reference voltage
 
-	calibration.readCalibrationValues(); // -- disable to bypass overwriting EEPROM during programming/development. uncomment for typical use
+	// calibration.readCalibrationValues(); // -- disable to bypass overwriting EEPROM during programming/development. uncomment for typical use
 	
-    sequencer.init(calibration, dac);
-	ui.init(calibration, dac, sequencer);
-  // disp.init(DIO_PIN, RCLK_PIN, SCLK_PIN, DIGIT_1_PIN, DIGIT_2_PIN, DIGIT_3_PIN);
+    // sequencer.init(calibration, dac);
+	// ui.init(calibration, dac, sequencer);
+  disp.init();
 
 }
 
 
 void loop() {
-	ui.poll();
-	ui.multiplex();
-	if (ui.isSequencing()){
-		run_sequence();
-	}
-  // disp.update();
-  // disp.setDisplayAlpha("MEM");
+	// ui.poll();
+	// ui.multiplex();
+	// if (ui.isSequencing()){
+	// 	run_sequence();
+	// }
+  disp.update();
+  disp.setDisplayAlpha("ABC");
   
 }
 
