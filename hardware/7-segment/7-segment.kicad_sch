@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "3 Digits 7 Segment Display ")
-		(date "2025-03-02")
-		(rev "v.1")
+		(date "2025-03-30")
+		(rev "v.2")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC595"
