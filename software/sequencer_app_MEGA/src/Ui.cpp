@@ -87,10 +87,10 @@ void Ui::init(Calibration& calibration, Dac& dac, Sequencer& sequencer){
 
 	display.startupSequence();
 
-	// if (!memory.init(sequencer)) {
-	// 	display.setDisplayAlpha("MEM");
-	// 	return;
-	// }
+	if (!memory.init(sequencer)) {
+		display.setDisplayAlpha("MEM");
+		return;
+	}
 	initializeSequenceMode();
 }
 

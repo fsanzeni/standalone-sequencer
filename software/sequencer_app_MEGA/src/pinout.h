@@ -3,24 +3,24 @@
 // MISC PINS
 #define GATE_PIN                9
 //#define LDAC_PIN 1
-#define CLOCK_OUT_PIN           8
-#define CLOCK_IN_PIN            11
+#define CLOCK_OUT_PIN           53
+#define CLOCK_IN_PIN            52
 #define RESET_PIN               10
 
 // KEYBOARD PINS
-#define ROW0_PIN                46
-#define ROW1_PIN                48
-#define ROW2_PIN                50
-#define ROW3_PIN                52
+#define ROW0_PIN                38
+#define ROW1_PIN                40
+#define ROW2_PIN                42
+#define ROW3_PIN                44
 
-#define COL0_PIN                39
-#define COL1_PIN                41
-#define COL2_PIN                43
-#define COL3_PIN                45
-#define COL4_PIN                47
-#define COL5_PIN                49
-#define COL6_PIN                51
-#define COL7_PIN                53
+#define COL0_PIN                31
+#define COL1_PIN                33
+#define COL2_PIN                35
+#define COL3_PIN                37
+#define COL4_PIN                39
+#define COL5_PIN                41
+#define COL6_PIN                43
+#define COL7_PIN                45
 
 const int buttonRows[4] = { ROW0_PIN, ROW1_PIN, ROW2_PIN, ROW3_PIN };
 const int buttonCols[8] = { COL0_PIN, COL1_PIN, COL2_PIN, COL3_PIN,
@@ -43,7 +43,7 @@ const int buttonCols[8] = { COL0_PIN, COL1_PIN, COL2_PIN, COL3_PIN,
 // TODO - CHIP SELECT PINS
 // #define CS0_PIN  10 //MCP23S17 for buttons, aux LEDS
 // #define CS1_PIN  9  //Display/matrix shift registers
-#define CSFLASH_PIN             8  //Flash memory
+#define CSFLASH_PIN             4  //Flash memory
 
 
 // DIGIT DISPLAY PINS

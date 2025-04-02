@@ -13,7 +13,6 @@ char filename[20] = "001.bin";
 uint8_t durations_8bit[128];
 SerialFlashFile file;
 
-
 bool Memory::init(Sequencer& sequencer){
     sequencerVar4 = &sequencer;
 
